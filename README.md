@@ -1,4 +1,3 @@
-# AIMockInterviwer
 
 # 🧑‍💻 AI Mock Interviewer (Excel Focused)
 
@@ -14,6 +13,9 @@ The system conducts staged interviews (Easy → Medium → Hard), evaluates resp
 - **Backend (Render):** [https://aimockinterviwer-excelrelated.onrender.com](https://aimockinterviwer-excelrelated.onrender.com)
 
 ---
+
+![Screenshot](https://github.com/user-attachments/assets/88e663af-5320-4ca4-a28a-049b09c92c61)
+
 
 ## ✨ Features
 - Chat-based **interactive Excel interview**.  
