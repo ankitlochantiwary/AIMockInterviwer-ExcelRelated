@@ -2,7 +2,10 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import "./index.css";
 
-const BACKEND = "http://127.0.0.1:8000";
+const BACKEND =
+    process.env.NODE_ENV === "production"
+        ? "https://aimockinterviwer-excelrelated.onrender.com"
+        : "http://127.0.0.1:8000";
 
 function App() {
     const [sessionId, setSessionId] = useState(null);
