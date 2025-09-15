@@ -1,0 +1,39 @@
+{
+  "id": "4bc5344e-7772-4b6e-b225-cc4e28f717ee",
+  "questions": [
+    {
+      "level": "easy",
+      "question": "What is the difference between a row and a column in Excel?"
+    },
+    {
+      "level": "easy",
+      "question": "How do you extract a year from a date in cell A2? (give formula)"
+    },
+    {
+      "level": "medium",
+      "question": "How would you find a product price using a key in another sheet (mention functions)?"
+    },
+    {
+      "level": "medium",
+      "question": "Explain how to create a pivot table showing monthly revenue by product."
+    },
+    {
+      "level": "hard",
+      "question": "Explain how INDEX + MATCH works and why it can be preferred over VLOOKUP."
+    },
+    {
+      "level": "hard",
+      "question": "Describe how you'd normalize mixed-format dates and mention Power Query or formulas you might use."
+    }
+  ],
+  "current_index": 0,
+  "answers": [],
+  "security_events": [
+    {
+      "type": "session_started",
+      "details": null,
+      "time": "2025-09-14T18:58:01.013609"
+    }
+  ],
+  "created_at": "2025-09-14T18:58:01.004565"
+}

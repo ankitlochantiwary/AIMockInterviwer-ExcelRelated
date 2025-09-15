@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+openai==1.107.2
+python-dotenv==1.0.1
+pydantic==2.7.0
+httpx

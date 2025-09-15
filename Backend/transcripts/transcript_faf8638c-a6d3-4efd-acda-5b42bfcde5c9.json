@@ -1,0 +1,112 @@
+{
+  "id": "faf8638c-a6d3-4efd-acda-5b42bfcde5c9",
+  "questions": [
+    {
+      "level": "easy",
+      "question": "What is the difference between a row and a column in Excel?"
+    },
+    {
+      "level": "easy",
+      "question": "How do you extract a year from a date in cell A2? (give formula)"
+    },
+    {
+      "level": "medium",
+      "question": "How would you find a product price using a key in another sheet (mention functions)?"
+    },
+    {
+      "level": "medium",
+      "question": "Explain how to create a pivot table showing monthly revenue by product."
+    },
+    {
+      "level": "hard",
+      "question": "Explain how INDEX + MATCH works and why it can be preferred over VLOOKUP."
+    },
+    {
+      "level": "hard",
+      "question": "Describe how you'd normalize mixed-format dates and mention Power Query or formulas you might use."
+    }
+  ],
+  "current_index": 6,
+  "answers": [
+    {
+      "question": "What is the difference between a row and a column in Excel?",
+      "answer": "what is your name?",
+      "rule_grade": {
+        "score": 1,
+        "reasons": [
+          "Short answer",
+          "0 keyword matches"
+        ]
+      },
+      "llm_grade": null,
+      "answered_at": "2025-09-15T14:48:58.491875"
+    },
+    {
+      "question": "How do you extract a year from a date in cell A2? (give formula)",
+      "answer": "d",
+      "rule_grade": {
+        "score": 1,
+        "reasons": [
+          "Short answer",
+          "0 keyword matches"
+        ]
+      },
+      "llm_grade": null,
+      "answered_at": "2025-09-15T14:49:02.878982"
+    },
+    {
+      "question": "How would you find a product price using a key in another sheet (mention functions)?",
+      "answer": "adca",
+      "rule_grade": {
+        "score": 1,
+        "reasons": [
+          "Short answer",
+          "0 keyword matches"
+        ]
+      },
+      "llm_grade": null,
+      "answered_at": "2025-09-15T14:49:06.917321"
+    },
+    {
+      "question": "Explain how to create a pivot table showing monthly revenue by product.",
+      "answer": "dqedq",
+      "rule_grade": {
+        "score": 1,
+        "reasons": [
+          "Short answer",
+          "0 keyword matches"
+        ]
+      },
+      "llm_grade": null,
+      "answered_at": "2025-09-15T14:49:09.359707"
+    },
+    {
+      "question": "Explain how INDEX + MATCH works and why it can be preferred over VLOOKUP.",
+      "answer": "dqwdqwd",
+      "rule_grade": {
+        "score": 1,
+        "reasons": [
+          "Short answer",
+          "0 keyword matches"
+        ]
+      },
+      "llm_grade": null,
+      "answered_at": "2025-09-15T14:49:11.250331"
+    },
+    {
+      "question": "Describe how you'd normalize mixed-format dates and mention Power Query or formulas you might use.",
+      "answer": "dqwdqwdqd",
+      "rule_grade": {
+        "score": 1,
+        "reasons": [
+          "Short answer",
+          "0 keyword matches"
+        ]
+      },
+      "llm_grade": null,
+      "answered_at": "2025-09-15T14:49:13.203916"
+    }
+  ],
+  "security_events": [],
+  "created_at": "2025-09-15T14:44:39.827341"
+}

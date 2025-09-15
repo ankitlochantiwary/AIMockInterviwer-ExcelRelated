@@ -1,0 +1,23 @@
+{
+  "id": "3e886be7-a908-4d30-933a-661c1247fa02",
+  "stage": 1,
+  "history": [
+    {
+      "role": "assistant",
+      "content": "Hi there!  Thanks for coming in today. We're going to do a quick check of your Excel skills, starting with some easier questions and gradually moving to more complex ones.  Ready to get started?\n\nOkay, first up: Let's say you have a column of numbers in Excel, say, in column A, from A1 to A10.  How would you calculate the sum of all those numbers using a formula?"
+    },
+    {
+      "role": "user",
+      "content": "yes thank you\n"
+    },
+    {
+      "role": "assistant",
+      "content": "Great!  That's a good start.  Now, let's try something slightly different.  How would you find the average of those same numbers in column A, from A1 to A10, using an Excel formula?"
+    }
+  ],
+  "answers": [
+    "yes thank you\n"
+  ],
+  "security_events": [],
+  "created_at": "2025-09-15T17:21:43.403535"
+}

@@ -1,0 +1,231 @@
+/* Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", "Segoe UI", Roboto, Arial, sans-serif;
+    background: linear-gradient(135deg, #eef2f7, #f9fbfd);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Chat container */
+.chat {
+    width: 90%;
+    max-width: 950px;
+    height: 95vh;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    border: 1px solid #e0e6ed;
+}
+
+/* Header */
+.chat-header {
+    background: linear-gradient(90deg, #1976d2, #1565c0);
+    color: white;
+    padding: 18px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #0d47a1;
+}
+
+/* Messages area */
+.messages {
+    flex: 1;
+    padding: 20px 24px;
+    overflow-y: auto;
+    background: #f8fafc;
+    scrollbar-width: thin;
+    scrollbar-color: #1976d2 #e0e0e0;
+}
+
+    /* Scrollbar (Webkit) */
+    .messages::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    .messages::-webkit-scrollbar-track {
+        background: #e0e0e0;
+    }
+
+    .messages::-webkit-scrollbar-thumb {
+        background-color: #1976d2;
+        border-radius: 10px;
+    }
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* User message (Candidate) */
+.message-user {
+    text-align: right;
+    margin: 10px 0;
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+    .message-user span {
+        background: #d1e7dd;
+        padding: 12px 16px;
+        border-radius: 20px 20px 0 20px;
+        display: inline-block;
+        max-width: 70%;
+        font-size: 1rem;
+        color: #1b4332;
+        font-weight: 500;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+/* Bot message (Interviewer) */
+.message-bot {
+    text-align: left;
+    margin: 10px 0;
+    animation: fadeIn 0.25s ease-in-out;
+}
+
+    .message-bot span {
+        background: #e3f2fd;
+        padding: 12px 16px;
+        border-radius: 20px 20px 20px 0;
+        display: inline-block;
+        max-width: 70%;
+        font-size: 1rem;
+        color: #0d47a1;
+        font-weight: 500;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+    }
+
+/* Controls */
+.controls {
+    display: flex;
+    gap: 10px;
+    padding: 14px;
+    background: #f5f7fa;
+    border-top: 1px solid #dce3eb;
+}
+
+textarea {
+    flex: 1;
+    height: 60px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #cfd8dc;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    transition: border 0.2s ease;
+}
+
+    textarea:focus {
+        border-color: #1976d2;
+        box-shadow: 0 0 0 2px rgba(25,118,210,0.2);
+    }
+
+button {
+    padding: 12px 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background: #1976d2;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background 0.2s ease;
+}
+
+    button:hover {
+        background: #0d47a1;
+    }
+
+/* Summary Box */
+.summary-box {
+    background: #ffffff;
+    border: 1px solid #dce3eb;
+    padding: 18px;
+    border-radius: 12px;
+    margin: 14px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+    line-height: 1.6;
+    font-size: 1rem;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+    .summary-box b {
+        display: block;
+        font-size: 1.1rem;
+        margin-bottom: 8px;
+        color: #1565c0;
+    }
+
+/* Typing Indicator */
+.typing-indicator {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 14px;
+    background: #e3f2fd;
+    border-radius: 20px 20px 20px 0;
+    width: fit-content;
+    margin: 10px 0;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+    .typing-indicator span {
+        width: 8px;
+        height: 8px;
+        background: #1976d2;
+        border-radius: 50%;
+        display: inline-block;
+        animation: blink 1.2s infinite;
+    }
+
+        .typing-indicator span:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+
+        .typing-indicator span:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+
+@keyframes blink {
+    0%, 80%, 100% {
+        opacity: 0.3;
+    }
+
+    40% {
+        opacity: 1;
+    }
+}
+
+/* Responsive */
+@media (max-width: 700px) {
+    .chat {
+        width: 100%;
+        height: 100vh;
+        border-radius: 0;
+    }
+
+    .chat-header {
+        font-size: 1.2rem;
+    }
+
+    textarea {
+        height: 50px;
+    }
+}
